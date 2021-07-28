@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
+ // define your variables first. I added 'choice' to mimick Harry's choice surpassing the sorting hat! B-)
+ 
  int choice = 0;
  
   int gryffindor = 0;
@@ -14,7 +16,9 @@ int main() {
   int answer4 = 0;
 
   std::cout << "The Sorting Hat Quiz!\n";
-
+ 
+//Every Wizard has the choice to choose their house!!
+ 
   std::cout << "What house do you want to be in?\n";
   std::cout << "1) Gryffindor\n";
   std::cout << "2) Hufflepuff\n";
@@ -23,6 +27,7 @@ int main() {
   
   std::cin >> choice;
 
+ //Add the value to the chosen house. Must have a value of 5 to surpass the max no matter the options
   if (choice = 1) {
 
     gryffindor = 5;
