@@ -46,13 +46,13 @@ int main() {
   }
   else {
 
-    std::cout << "Invalid input.\n";
+    std::cout << "Don't Worry. We'll help you figure it out!\n";
   }
 
-std::cout << "G: " << gryffindor << "\n";
+/*std::cout << "G: " << gryffindor << "\n";
 std::cout << "H: " << hufflepuff << "\n";
 std::cout << "R: " << ravenclaw << "\n";
-std::cout << "S: " << slytherin << "\n";
+std::cout << "S: " << slytherin << "\n";*/
 
   //Question 1
   std::cout << "Q1) When I'm dead, I want people to remember me as: \n";
