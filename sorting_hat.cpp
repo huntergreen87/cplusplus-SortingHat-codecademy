@@ -24,29 +24,36 @@ int main() {
   std::cout << "2) Hufflepuff\n";
   std::cout << "3) Ravenclaw\n";
   std::cout << "4) Slytherin\n";
+  std::cout << "5) I'm not sure\n";
   
   std::cin >> choice;
 
  //Add the value to the chosen house. Must have a value of 5 to surpass the max no matter the options
-  if (choice = 1) {
+  if (choice == 1) {
 
     gryffindor = 5;
   }
-  else if (choice = 2) {
+  else if (choice == 2) {
 
     hufflepuff = 5;
   }
-  else if (choice = 3) {
+  else if (choice == 3) {
 
     ravenclaw = 5;
   }
-  else if (choice = 4) {
+  else if (choice == 4) {
 
     slytherin = 5;
   }
-  else {
+  else if (choice == 5) {
 
     std::cout << "Don't Worry. We'll help you figure it out!\n";
+    std::cout << "\n";
+    std::cout << "\n";
+  }
+  else {
+
+    std::cout << "Invalid option.\n";
   }
 
 /*std::cout << "G: " << gryffindor << "\n";
@@ -211,3 +218,4 @@ std::cout << "R: " << ravenclaw << "\n";
 std::cout << "S: " << slytherin << "\n";
 
 }
+
